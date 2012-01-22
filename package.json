@@ -1,0 +1,16 @@
+{
+  "name": "clover"
+  , "version": "0.0.1"
+  , "description": "simple coverage tool"
+  , "keywords": ["coverage"]
+  , "author": "Katsuhiko Nagashima <katsuhiko.nagashima@gmail.com>"
+  , "main": "index"
+  , "engines": { "node": "0.6.x" }
+  , "dependencies": {
+    "burrito": "0.2.11"
+  }
+  , "devDependencies": {
+    "mocha": "*"
+    , "should": "*"
+  }
+}
