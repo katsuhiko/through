@@ -40,6 +40,6 @@ function Coverlay(runner) {
       }
     };
 
-    out(global.clover.result);
+    out(global.through.result);
  });
 }

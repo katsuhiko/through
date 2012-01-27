@@ -1,11 +1,11 @@
-require('../lib/clover');
+require('../lib/through');
 var calc = require('./lib/calc');
 
-describe('clover', function() {
+describe('through', function() {
   var list = function() {
-    for (var name in clover.result) {
+    for (var name in through.result) {
       if (/.*calc\.js$/.test(name)) {
-        return clover.result[name];
+        return through.result[name];
       }
     }
     return [];

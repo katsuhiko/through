@@ -1,2 +1,2 @@
 
-module.exports = require('./lib/clover');
+module.exports = require('./lib/through');
