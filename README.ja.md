@@ -15,7 +15,7 @@ Node.js を利用したアプリケーションの Coverage ツールです。
 
 使い方
 ------
-Coverage 対象となるモジュールを読み込む前に Clover モジュールを読み込みます。
+Coverage 対象となるモジュールを読み込む前に Through モジュールを読み込みます。
 
     require('through');
 
@@ -39,7 +39,7 @@ Coverage 計測データが格納されます。
 
 オプション
 ------
-./test/clover.json にオプションを指定できます。
+./test/through.json にオプションを指定できます。
 
     {
         "globalName": "through", 
