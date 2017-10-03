@@ -58,7 +58,7 @@ Coverage 計測対象とするモジュールを正規表現で指定します�
 例えば
 ------
 もし、あなたが emacs を利用しているのであれば、
-[mocha](http://visionmedia.github.com/mocha/) と
+[mocha](https://mochajs.org/) と
 [coverlay.el](https://github.com/twada/coverlay.el) 
 を利用することで、強力なツールになります。
 
